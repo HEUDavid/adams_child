@@ -1,0 +1,9 @@
+/*
+Theme Name:     adams_child
+Template:       Adams
+*/
+.post-list .meta header h2 {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;}
+.setting_tool {display: none;}
+.socials {display: none !important;}
+.dot-good {display: none !important;}
+.fullname {font-family: sans-serif !important;}
