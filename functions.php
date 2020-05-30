@@ -12,7 +12,7 @@ if (!function_exists('davidxiang_footer')) {
         if (is_page()) {
                 echo '<style type="text/css">.nearbypost {display: none;}</style>';
 	}
-	echo '<script>console.info("无聊的人。。。")</script>';
+	echo '<script>console.info("一个无聊的人，联系我（admin艾特mdavid.cn）。")</script>';
     }
 }
 add_action('wp_footer', 'davidxiang_footer');
