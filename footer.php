@@ -9,7 +9,7 @@
                 <span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=23010302000239" target="_blank">黑公网安备 23010302000239号</a></span>
             </div>
             <div class='right'>
-                <span><a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备17021154号-1</a></span>
+                <span><a href="https://beian.miit.gov.cn" target="_blank">苏ICP备17021154号-1</a></span>
             </div>
         </div>
     </section>
