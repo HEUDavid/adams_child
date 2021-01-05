@@ -4,12 +4,12 @@
         <div style="display: flex;justify-content: space-between;">
             <div class='left'>
                 <span>&copy; <?= date('Y') ?> <a href="<?= get_bloginfo('url') ?>"><?= get_bloginfo('name') ?></a></span>
-                <?php if (get_option('zh_cn_l10n_icp_num')) { ?>
-                    <span> . <a href="http://www.beian.miit.gov.cn" target="_blank"><?= get_option('zh_cn_l10n_icp_num') ?></a></span>
-                <?php } ?>
+            </div>
+            <div class='middle'>
+                <span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=23010302000239" target="_blank">黑公网安备 23010302000239号</a></span>
             </div>
             <div class='right'>
-                <span><a href="https://mdavid.cn" target="_blank">苏ICP备17021154号</a></span>
+                <span><a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备17021154号-1</a></span>
             </div>
         </div>
     </section>
