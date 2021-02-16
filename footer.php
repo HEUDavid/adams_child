@@ -56,8 +56,8 @@
                     'exclude': '.readerswall img,.gallery a img,.attachment a img'
                 });
                 <?php } if(!get_theme_mod('biji_setting_lately')){ ?>
-                $.lately({
-                    'target': '.commentmetadata a,.infos time,.post-list time'
+                Lately({
+                    'target': '.commentmetadata a:first-child,.infos time,.post-list time'
                 });
                 <?php } if(!get_theme_mod('biji_setting_prettify')){ ?>
                 prettyPrint();
@@ -96,8 +96,8 @@
         }
         <?php if(!get_theme_mod('biji_setting_placard')){ ?>
         if ($('.placard').length) {
-            $.get("https://v1.hitokoto.cn?encode=text", (tetx) => {
-                $('.placard').text(tetx);
+            $.get("https://v1.hitokoto.cn", (data) => {
+                $('.placard').text(data.hitokoto);
             });
         }
         <?php }?>
